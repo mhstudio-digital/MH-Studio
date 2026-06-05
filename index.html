@@ -6,17 +6,17 @@
 <title>MH Studio — Diseño Web & IA · Costa Rica</title>
 <meta name="description" content="Estudio digital especializado en diseño web, tiendas en línea, automatización con IA y chatbots para empresas en Costa Rica." />
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://mhstudio.cr/" />
+<link rel="canonical" href="https://mhstudio-digital.github.io/MH-Studio/" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mhstudio.cr/" />
+<meta property="og:url" content="https://mhstudio-digital.github.io/MH-Studio/" />
 <meta property="og:title" content="MH Studio — Diseño Web & IA · Costa Rica" />
 <meta property="og:description" content="Estudio digital especializado en diseño web, tiendas en línea, automatización con IA y chatbots para empresas en Costa Rica." />
-<meta property="og:image" content="https://mhstudio.cr/og-image.png" />
+<meta property="og:image" content="https://mhstudio-digital.github.io/MH-Studio/og-image.png" />
 <meta property="og:locale" content="es_CR" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="MH Studio — Diseño Web & IA · Costa Rica" />
 <meta name="twitter:description" content="Estudio digital especializado en diseño web, tiendas en línea, automatización con IA y chatbots para empresas en Costa Rica." />
-<meta name="twitter:image" content="https://mhstudio.cr/og-image.png" />
+<meta name="twitter:image" content="https://mhstudio-digital.github.io/MH-Studio/og-image.png" />
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234B7BFF'/%3E%3Ctext x='16' y='22' text-anchor='middle' fill='white' font-family='system-ui%2Csans-serif' font-weight='700' font-size='14'%3EMH%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1762,14 +1762,8 @@ footer {
         </div>
         <p class="footer-desc mt-16">Estudio digital especializado en diseño web, tiendas en línea e inteligencia artificial para empresas en Costa Rica.</p>
         <div class="social-links mt-24">
-          <a href="#" class="social-link" aria-label="Instagram">
+          <a href="https://instagram.com/mhstudio.cr" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="Facebook">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="LinkedIn">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
           </a>
           <a href="https://wa.me/50683674466" class="social-link" aria-label="WhatsApp">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.99 1.01A10.96 10.96 0 0 0 1.03 12c0 1.93.505 3.74 1.386 5.315L.057 23l5.837-1.33A10.955 10.955 0 0 0 11.99 23C18.064 23 23 18.063 23 12S18.064 1.01 11.99 1.01z"/></svg>
@@ -1882,15 +1876,28 @@ function animateCounter(el, target, suffix = '') {
 // Counter animation disabled — stats are now qualitative labels
 // const statsObserver = ...
 
-// Form submit
+// Form submit — abre WhatsApp con los datos del formulario
 function handleFormSubmit(btn) {
-  btn.disabled = true;
-  btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="animation:spin 1s linear infinite"><path d="M21 12a9 9 0 11-6.219-8.56"/></svg> Enviando...`;
-  setTimeout(() => {
-    btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg> ¡Mensaje enviado!`;
-    btn.style.background = 'var(--green)';
-    btn.style.boxShadow = '0 8px 32px rgba(31,209,160,0.3)';
-  }, 1600);
+  const card = btn.closest('.card');
+  const inputs = card.querySelectorAll('input, select, textarea');
+  const nombre = inputs[0].value.trim();
+  const empresa = inputs[1].value.trim();
+  const email = inputs[2].value.trim();
+  const whatsapp = inputs[3].value.trim();
+  const servicio = inputs[4].value;
+  const mensaje = inputs[5].value.trim();
+
+  const texto = [
+    '👋 Hola MH Studio, me interesa su servicio.',
+    nombre   ? `📛 Nombre: ${nombre}`     : '',
+    empresa  ? `🏢 Empresa: ${empresa}`   : '',
+    email    ? `📧 Email: ${email}`       : '',
+    whatsapp ? `📱 WhatsApp: ${whatsapp}` : '',
+    servicio ? `🛠️ Servicio: ${servicio}` : '',
+    mensaje  ? `💬 Mensaje: ${mensaje}`   : '',
+  ].filter(Boolean).join('\n');
+
+  window.open('https://wa.me/50683674466?text=' + encodeURIComponent(texto), '_blank');
 }
 
 // Add spin animation
