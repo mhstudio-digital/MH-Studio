@@ -1015,11 +1015,12 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-.delay-1 { transition-delay: 0.1s; }
-.delay-2 { transition-delay: 0.2s; }
-.delay-3 { transition-delay: 0.3s; }
-.delay-4 { transition-delay: 0.4s; }
-.delay-5 { transition-delay: 0.5s; }
+.delay-1 { transition-delay: 0.08s; }
+.delay-2 { transition-delay: 0.16s; }
+.delay-3 { transition-delay: 0.24s; }
+.delay-4 { transition-delay: 0.32s; }
+.delay-5 { transition-delay: 0.40s; }
+.delay-6 { transition-delay: 0.48s; }
 
 /* ============================================================
    RESPONSIVE
@@ -1199,9 +1200,9 @@ footer {
       <h2 class="display-lg mt-16">Todo lo que tu empresa necesita, en un solo lugar.</h2>
       <p class="body-md text-silver mt-16">Desde una landing page hasta automatización completa con IA. Trabajamos con precisión en cada etapa.</p>
     </div>
-    <div class="services-grid mt-64 animate-on-scroll">
+    <div class="services-grid mt-64">
       <!-- Web Design -->
-      <div class="service-item">
+      <div class="service-item animate-on-scroll delay-1">
         <div class="service-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" color="var(--silver)"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
         </div>
@@ -1210,7 +1211,7 @@ footer {
         <div class="service-price">Desde $250 USD</div>
       </div>
       <!-- Redesign -->
-      <div class="service-item">
+      <div class="service-item animate-on-scroll delay-2">
         <div class="service-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" color="var(--silver)"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
         </div>
@@ -1219,7 +1220,7 @@ footer {
         <div class="service-price">Desde $400 USD</div>
       </div>
       <!-- Ecommerce -->
-      <div class="service-item">
+      <div class="service-item animate-on-scroll delay-3">
         <div class="service-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" color="var(--silver)"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
         </div>
@@ -1228,7 +1229,7 @@ footer {
         <div class="service-price">Desde $800 USD</div>
       </div>
       <!-- AI Chatbot -->
-      <div class="service-item">
+      <div class="service-item animate-on-scroll delay-4">
         <div class="service-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" color="var(--silver)"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
         </div>
@@ -1237,7 +1238,7 @@ footer {
         <div class="service-price">Desde $600 USD</div>
       </div>
       <!-- Automation -->
-      <div class="service-item">
+      <div class="service-item animate-on-scroll delay-5">
         <div class="service-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" color="var(--silver)"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
         </div>
@@ -1246,7 +1247,7 @@ footer {
         <div class="service-price">Desde $700 USD</div>
       </div>
       <!-- Digital Optimization -->
-      <div class="service-item">
+      <div class="service-item animate-on-scroll delay-6">
         <div class="service-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" color="var(--silver)"><polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/><polyline points="17,6 23,6 23,12"/></svg>
         </div>
@@ -1274,7 +1275,7 @@ footer {
 
     <!-- Proyecto Real -->
     <div style="margin-top:48px;">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+      <div class="animate-on-scroll" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
         <span class="badge badge-green badge-dot">Proyecto real</span>
         <span class="body-sm text-silver">Trabajo entregado a un cliente real</span>
       </div>
@@ -1302,7 +1303,7 @@ footer {
 
     <!-- Proyectos Conceptuales -->
     <div style="margin-top:48px;">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+      <div class="animate-on-scroll" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
         <span class="badge badge-silver">Proyectos conceptuales</span>
         <span class="body-sm text-silver">Ejemplos de diseño y estrategia que aplicamos en propuestas reales</span>
       </div>
@@ -1412,8 +1413,8 @@ footer {
       <h2 class="display-lg mt-16">Sabés exactamente en qué punto está tu proyecto.</h2>
       <p class="body-md text-silver mt-16">Sin sorpresas. Sin silencio de radio. Un proceso claro de principio a fin.</p>
     </div>
-    <div class="process-steps animate-on-scroll">
-      <div class="process-step">
+    <div class="process-steps">
+      <div class="process-step animate-on-scroll delay-1">
         <div class="step-number">01 — Descubrimiento</div>
         <div class="step-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
@@ -1421,7 +1422,7 @@ footer {
         <div class="step-title">Diagnóstico & Estrategia</div>
         <div class="step-desc">Entendemos tu negocio, tu competencia y tus objetivos. Definimos qué construir y por qué.</div>
       </div>
-      <div class="process-step">
+      <div class="process-step animate-on-scroll delay-2">
         <div class="step-number">02 — Diseño</div>
         <div class="step-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
@@ -1429,7 +1430,7 @@ footer {
         <div class="step-title">Diseño & Prototipo</div>
         <div class="step-desc">Creamos el diseño completo en Figma. Ves exactamente cómo lucirá antes de que escribamos código.</div>
       </div>
-      <div class="process-step">
+      <div class="process-step animate-on-scroll delay-3">
         <div class="step-number">03 — Desarrollo</div>
         <div class="step-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
@@ -1437,7 +1438,7 @@ footer {
         <div class="step-title">Construcción & QA</div>
         <div class="step-desc">Desarrollamos con tecnologías modernas. Pruebas en múltiples dispositivos y navegadores antes de lanzar.</div>
       </div>
-      <div class="process-step">
+      <div class="process-step animate-on-scroll delay-4">
         <div class="step-number">04 — Lanzamiento</div>
         <div class="step-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
@@ -1756,7 +1757,7 @@ footer {
 <footer>
   <div class="container">
     <div class="footer-top">
-      <div>
+      <div class="animate-on-scroll delay-1">
         <div class="footer-logo-mark">
           <a href="#" class="logo">
             <div class="logo-mark">MH</div>
@@ -1773,7 +1774,7 @@ footer {
           </a>
         </div>
       </div>
-      <div>
+      <div class="animate-on-scroll delay-2">
         <div class="footer-col-title">Servicios</div>
         <a href="#servicios" class="footer-link">Diseño web</a>
         <a href="#servicios" class="footer-link">Rediseño web</a>
@@ -1782,7 +1783,7 @@ footer {
         <a href="#servicios" class="footer-link">Automatización</a>
         <a href="#servicios" class="footer-link">Optimización digital</a>
       </div>
-      <div>
+      <div class="animate-on-scroll delay-3">
         <div class="footer-col-title">Empresa</div>
         <a href="#por-que" class="footer-link">Nosotros</a>
         <a href="#portafolio" class="footer-link">Portafolio</a>
@@ -1790,7 +1791,7 @@ footer {
         <a href="#precios" class="footer-link">Precios</a>
         <a href="#testimonios" class="footer-link">Impacto esperado</a>
       </div>
-      <div>
+      <div class="animate-on-scroll delay-4">
         <div class="footer-col-title">Contacto</div>
         <a href="mailto:contacto@mhstudio.cr" class="footer-link">contacto@mhstudio.cr</a>
         <a href="https://wa.me/50683674466" class="footer-link">+506 8367-4466</a>
@@ -1800,7 +1801,7 @@ footer {
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom animate-on-scroll delay-5">
       <div class="footer-copy">© 2026 MH Studio. Todos los derechos reservados. Hecho con precisión en Costa Rica 🇨🇷</div>
     </div>
   </div>
